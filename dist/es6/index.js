@@ -1,6 +1,6 @@
 export function configure(frameworkConfig) {
-  frameworkConfig.globalResources('./hammer-swipe');
-  frameworkConfig.globalResources('./hammer-tap');
-  frameworkConfig.globalResources('./hammer-press');
-  frameworkConfig.globalResources('./hammer-hold');
+  frameworkConfig.globalResources([PLATFORM.moduleName('./hammer-swipe')]);
+  frameworkConfig.globalResources([PLATFORM.moduleName('./hammer-tap')]);
+  frameworkConfig.globalResources([PLATFORM.moduleName('./hammer-press')]);
+  frameworkConfig.globalResources([PLATFORM.moduleName('./hammer-hold')]);
 }

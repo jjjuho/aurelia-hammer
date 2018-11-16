@@ -1,25 +1,36 @@
 {
-  "name": "aurelia-hammer",
-  "version": "0.1.0",
-  "description": "A plugin for Aurelia providing Custom Attributes for Hammer.JS",
-  "keywords": [
-    "aurelia",
-    "plugin",
-    "hammer",
-    "touch",
-    "gestures"
+  "_from": "github:jjjuho/aurelia-hammer",
+  "_id": "aurelia-hammer@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-v8rudr3lua66T1UujxTX4+Ei89U=",
+  "_location": "/aurelia-hammer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "benib/aurelia-hammer",
+    "rawSpec": "benib/aurelia-hammer",
+    "saveSpec": "github:benib/aurelia-hammer",
+    "fetchSpec": null,
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "homepage": "https://github.com/benib/aurelia-hammer",
+  "_resolved": "github:benib/aurelia-hammer#7a6e671462b04908cdc8c944a7de4a959ee309d8",
+  "_spec": "benib/aurelia-hammer",
+  "_where": "F:\\duuni\\SVN\\book-a-room\\BookARoom",
+  "author": {
+    "name": "Beni Buess",
+    "email": "beni@benel.net",
+    "url": "http://benel.net/"
+  },
   "bugs": {
     "url": "https://github.com/benib/aurelia-hammer/issues"
   },
-  "license": "MIT",
-  "author": "Beni Buess <beni@benel.net> (http://benel.net/)",
-  "main": "dist/commonjs/index.js",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/benib/aurelia-hammer"
-  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A plugin for Aurelia providing Custom Attributes for Hammer.JS",
   "devDependencies": {
     "aurelia-tools": "^0.1.3",
     "babel-eslint": "^4.1.2",
@@ -41,6 +52,7 @@
     "vinyl-paths": "^1.0.0",
     "yargs": "^2.1.1"
   },
+  "homepage": "https://github.com/benib/aurelia-hammer",
   "jspm": {
     "main": "index",
     "format": "amd",
@@ -56,5 +68,20 @@
       "babel-runtime": "npm:babel-runtime@^5.8.20",
       "core-js": "npm:core-js@^1.1.0"
     }
-  }
+  },
+  "keywords": [
+    "aurelia",
+    "plugin",
+    "hammer",
+    "touch",
+    "gestures"
+  ],
+  "license": "MIT",
+  "main": "dist/commonjs/index.js",
+  "name": "aurelia-hammer",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/benib/aurelia-hammer.git"
+  },
+  "version": "0.1.0"
 }
